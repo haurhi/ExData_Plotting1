@@ -1,5 +1,6 @@
 power <- read.table('household_power_consumption.txt',sep=';',stringsAsFactors=FALSE)[66638:69517,]
 weekday <- c('Thu', 'Fri', 'Sat')
+
 png(file = 'plot4.png')
 
 par(mfrow = c(2,2))
